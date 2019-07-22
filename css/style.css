@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* button:focus {
+  outline: none;
+  
+} */
+
+/* header */
+
+.promo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/phone.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 540px;
+  margin-bottom: 68px;
+}
+.link {
+  padding-top: 32px;
+  margin-bottom: 105px;
+}
+.links {
+  border: 2px solid transparent;
+  border-radius: 50px;
+  padding: 10px 18px;
+  line-height: 1;
+  font-size: 14px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.links:hover {
+  color: #fff;
+  border: 2px solid #fff;
+  text-decoration: none !important;
+}
+.logo {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fff !important;
+  font-family: "Montserrat";
+  font-weight: 700;
+  margin-bottom: 38px;
+  text-decoration: none !important;
+}
+.header_wrapper {
+  width: 284px;
+}
+
+.header_wrapper h2 {
+  color: #fff;
+  font-size: 29px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.header_wrapper p {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 300;
+  margin-bottom: 18px;
+}
+.header__but {
+  width: 280px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #ff4e50;
+  border: none ;
+  font-size: 14px;
+  color: #fff !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.header__but:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1)
+  );
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5),
+    1px 1px 5px rgba(255, 255, 255, 1);
+  transition: box-shadow 0.5s ease-in-out;
+  
+}
+
+/* MAIN */
+.wrapper {
+  width: 254px;
+}
+.items h4 {
+  font-size: 22px;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  margin-bottom: 14px;
+  width: 270px;
+}
+
+.layer {
+  border-radius: 50%;
+}
+.item h5 {
+  font-size: 14px;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.item p {
+  font-size: 14px;
+  color: #666;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.Ellipse {  
+  width: 122px;
+  height: 122px;
+  margin-bottom: 20px;
+}
+.Ellipse__icon {
+  width: 34px;
+  height: 34px;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Ellipse1 {
+  background-color: #ff4e50;
+  background-image: url(../icon/Shape1.jpg);
+}
+.Ellipse2 {
+  background-color: #ffa507;
+  background-image: url(../icon/Shape2.jpg);
+}
+.Ellipse3 {
+  background-color: #1cd7ad;
+  background-image: url(../icon/Shape3.jpg);
+}
+.Ellipse4 {
+  background-color: #4e73db;
+  background-image: url(../icon/Shape4.jpg);
+}
+.but_end {
+  width: 280px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 2px solid #ff4e50;
+  font-size: 14px;
+  color: #ff4e50;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin: 28px 0;
+}
+.but_end:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgba(255, 0, 0, 1)
+  );
+  box-shadow: 0px 0px 73px 13px rgba(8, 8, 8, 1);
+  transition: box-shadow 1s ease-out;
+}
+
+/* --------------------MEDIA------------------------- */
+
+@media screen and (min-width: 768px) {
+  /* HEADER */
+  .promo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../img/tablet.jpg);
+  }
+  
+  .logo {
+    padding-top: 32px;
+  }
+  .header_wrapper {
+    width: 485px;
+  }
+  .header_wrapper h2 {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+  .header_wrapper p {
+    font-size: 24px;
+  }
+  .header__but {
+    width: 225px;
+    
+  }
+  .wrapper {
+    width: 470px;
+  }
+  .items h4 {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .but_end {
+    width: 194px;
+    height: 34px;
+    margin-bottom: 45px !important;
+  }
+  .it1 {
+    order: 1;
+  }
+  .it2 {
+    order: 3;
+  }
+  .it3 {
+    order: 2;
+  }
+  .it4 {
+    order: 4;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* HEADER */
+  .promo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../img/Vector.jpg);
+  }
+  .wrapper {
+    width: 916px;
+  }
+}
