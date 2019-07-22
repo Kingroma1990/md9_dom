@@ -9,10 +9,10 @@ img {
   display: block;
 }
 
-/* button:focus {
+button:focus {
   outline: none;
   
-} */
+}
 
 /* header */
 
